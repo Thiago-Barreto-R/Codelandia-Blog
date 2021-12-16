@@ -24,8 +24,6 @@ Challenges will be made in Figma where anyone can access it and even move it to 
 
 Any questions about the challenges can be taken on our **'#questions'** channel.
 
-### Image Desktop
-
 <div align="center">
 <h3>Image Desktop</h3>
 <img src="https://raw.githubusercontent.com/gist/Thiago-Barreto-R/57d4f2b5ce988b6c0ca7e2463ad42bdc/raw/fda8bca9df23dd2dfc54a23a80972df9e33dce4a/Image-Desktop.svg">
