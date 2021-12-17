@@ -23,7 +23,6 @@ All challenges are for the **JUNIOR level**, but over time we will go deeper and
 Challenges will be made in Figma where anyone can access it and even move it to edit it.
 
 Any questions about the challenges can be taken on our **'#questions'** channel.
-
 ### Images
 
 <div align="center">
