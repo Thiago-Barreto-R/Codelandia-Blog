@@ -1,0 +1,31 @@
+.menu {
+    background: linear-gradient(to right, #574AE8, #3EA1DB
+    );
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .tittle {
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+        padding: 1.5rem 0;
+        width: 60%;
+    }
+
+    .search {
+        margin: 0 auto;
+        padding: 1rem 0;
+
+        input {
+            width: 52rem;
+            padding: .5rem 0;
+            border-radius: .3rem;
+            outline: none;
+            border: none;
+            background-color: #FFFFFF33;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+    }
+}
