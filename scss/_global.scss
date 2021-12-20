@@ -1,5 +1,12 @@
+@use 'variables' as * ;
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: $font-lexend;
+}
+
+::-webkit-input-placeholder {
+    color: $color-opaque-white;
 }

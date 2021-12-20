@@ -2,13 +2,21 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: "lexend", sans-serif;
+}
+
+::-webkit-input-placeholder {
+  color: #F3F5F7;
 }
 
 .menu {
   background: linear-gradient(to right, #574AE8, #3EA1DB);
   display: flex;
   flex-direction: column;
+  color: #F3F5F7;
   width: 100%;
+  position: fixed;
+  z-index: 1;
 }
 .menu .tittle {
   display: flex;
@@ -18,18 +26,92 @@
   width: 60%;
 }
 .menu .search {
+  width: 60%;
   margin: 0 auto;
-  padding: 1rem 0;
+  padding: 2rem 0;
+  color: #F3F5F7;
+  position: relative;
+}
+.menu .search .search-icon {
+  position: absolute;
+  top: 3rem;
+  left: 1.3rem;
+  font-size: 1rem;
 }
 .menu .search input {
-  width: 52rem;
-  padding: 0.5rem 0;
+  width: 100%;
+  padding: 1rem 1rem 1rem 3rem;
   border-radius: 0.3rem;
   outline: none;
   border: none;
   background-color: #FFFFFF33;
   font-size: 1rem;
-  font-weight: 500;
+  color: #F3F5F7;
+  opacity: 0.9;
+  transition: 0.3s ease-in-out;
+}
+.menu .search input:focus {
+  box-shadow: 2px 2px 7px 2px rgba(16, 15, 15, 0.193);
+}
+.menu .search input:hover {
+  background-color: #FFFFFF45;
+}
+
+.box-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #F3F5F7;
+  width: 100%;
+}
+.box-card .card {
+  width: 65%;
+  background-color: #FFFFFF;
+  padding: 1.5rem 1rem;
+  border-radius: 0.2rem;
+}
+.box-card .card:nth-child(1) {
+  margin-top: 16rem;
+}
+.box-card .card:nth-child(2) {
+  margin-top: 3rem;
+}
+.box-card .card:nth-child(3) {
+  margin-top: 3rem;
+}
+.box-card .card:nth-child(4) {
+  margin-top: 3rem;
+}
+.box-card .card .tittle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.box-card .card .tittle .text-data {
+  opacity: 0.7;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+.box-card .card .tittle .group-heart {
+  position: relative;
+}
+.box-card .card .tittle .group-heart .like {
+  color: #574ae8;
+}
+.box-card .card .tittle .group-heart .bg-red {
+  color: red;
+  position: absolute;
+  right: 0.1px;
+}
+.box-card .card h3 {
+  font-size: 1.5rem;
+  color: #313131;
+  line-height: 3rem;
+}
+.box-card .card .text {
+  line-height: 1.5rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
